@@ -12,6 +12,9 @@ import javax.swing.JTable;
  * @author ASUS
  */
 public interface InterfaceBuku {
+    
+    //ini crud interface
+    
    public void create(Buku b); 
    public void read(JTable table);
    public void update(Buku b, int id);
